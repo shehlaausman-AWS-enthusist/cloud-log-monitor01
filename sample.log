@@ -1,0 +1,10 @@
+2026-04-25 10:00:01 INFO System started
+2026-04-25 10:01:10 ERROR Database connection failed
+2026-04-25 10:02:15 ERROR Database connection failed
+2026-04-25 10:03:20 CRITICAL Service crashed
+2026-04-25 10:04:00 INFO Retry attempt
+2026-04-25 10:05:30 WARNING High memory usage
+2026-04-25 10:06:40 ERROR Timeout error
+2026-04-25 10:07:10 ERROR Timeout error
+2026-04-25 10:08:00 CRITICAL System overload
+python log_monitor.py sample log --window 5 -- 
