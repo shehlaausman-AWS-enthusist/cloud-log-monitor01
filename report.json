@@ -1,0 +1,45 @@
+{
+    "summary": {
+        "INFO": 2,
+        "ERROR": 4,
+        "CRITICAL": 2,
+        "WARNING": 1
+    },
+    "flagged_windows": [
+        {
+            "start": "2026-04-25 10:01:10",
+            "end": "2026-04-25 10:06:10",
+            "count": 3
+        },
+        {
+            "start": "2026-04-25 10:02:15",
+            "end": "2026-04-25 10:07:15",
+            "count": 4
+        },
+        {
+            "start": "2026-04-25 10:03:20",
+            "end": "2026-04-25 10:08:20",
+            "count": 4
+        },
+        {
+            "start": "2026-04-25 10:06:40",
+            "end": "2026-04-25 10:11:40",
+            "count": 3
+        }
+    ],
+    "top_messages": [
+        [
+            "Database connection failed",
+            2
+        ],
+        [
+            "Timeout error",
+            2
+        ],
+        [
+            "System started",
+            1
+        ]
+    ],
+    "health_status": "CRITICAL"
+}
